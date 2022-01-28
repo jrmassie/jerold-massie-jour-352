@@ -1,0 +1,6 @@
+<html> start a web page
+  <body> main body of the web page
+    <p> start new paragraph
+    <br> create a line break
+    <img> insert an image
+    <a href> create "anchor" or hyperlink
