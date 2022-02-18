@@ -52,3 +52,13 @@
     font-size: 1em;
 
   }
+
+  /* job descriptions */
+  p{
+    font-weight: 400;
+  }
+
+  /* list items */
+  li{
+    font-weight: 400;
+  }
