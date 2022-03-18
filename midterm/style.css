@@ -1,0 +1,33 @@
+p{
+  font-family: helvetica, arial, sans-sans-serif;
+  font-size: 12px;
+}
+
+h1{
+  font-family: times new roman, serif;
+  font-size: 4em;
+  text-align: center;
+}
+
+h2{
+  font-family: georgia, serif;
+  font-size: 18px;
+}
+
+#container{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#byline{
+  font-family: times new roman, serif;
+  font-size: 12px;
+  font-style: italic;
+}
+
+blockquote{
+  text-align: center;
+  font-style: oblique;
+}
