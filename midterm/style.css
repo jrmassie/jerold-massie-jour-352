@@ -1,3 +1,5 @@
+
+/* all of the major text elements */
 p{
   font-family: helvetica, arial, sans-sans-serif;
   font-size: 12px;
@@ -7,12 +9,23 @@ h1{
   font-family: times new roman, serif;
   font-size: 4em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 h2{
   font-family: georgia, serif;
   font-size: 18px;
+  margin-top: 50px;
+  text-align: left;
 }
+
+h3{
+  font-family: times new roman, serif;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: underline double;
+}
+
 
 #container{
   width: 100%;
@@ -30,4 +43,51 @@ h2{
 blockquote{
   text-align: center;
   font-style: oblique;
+  margin-bottom: 50px;
+}
+
+#banner{
+  align: center;
+  margin-bottom: 200px;
+}
+
+.top{
+margin: 300 auto;
+margin-top: 0;
+}
+
+#graph{
+  float:right;
+}
+
+.related{
+  font-family: times new roman, serif;
+  font-size: 14px;
+}
+
+
+/* Image alignment, spacings, and captions */
+.head-image{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.left-image{
+  float:left;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.right-image{
+  float: right;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.caption{
+  font-family: times new roman, serif;
+  font-size: 10px;
+  font-style: italic;
 }
