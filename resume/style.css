@@ -11,6 +11,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 50px;
   }
 
 /* name */
@@ -26,11 +27,16 @@
   }
 
 /* title */
-  strong{
+  #title{
     text-transform: uppercase;
     font-size: 2em;
     color: #33485e;
+    font-weight: 600px;
+    text-align: center;
+    margin-top: 20px;
   }
+
+
 
 /* section title */
   .sectionheader{
@@ -39,29 +45,70 @@
     background-color: #33485e;
     color: white;
     font-weight: 400;
-    margin: 20px 0px 10px 0px;
+    margin: 20px, 0px, 10px, 0px;
     width: 70%;
     min-width: 300px;
-
   }
 
 /* job titles */
-  h3{
+  .jobtitle{
     font-weight: 600;
     font-size: 2em;
 
   }
 
 /* job organization */
-  h4{
+  .organiization{
     font-weight: 400;
     font-size: 1.5em;
 
   }
 
 /* job dates */
-  h5{
+  .date{
     font-weight: 400;
     font-size: 1em;
+    margin: 3px, 0px, 0px, 0px;
 
+  }
+
+/* descriptions */
+  .description{
+    margin: 10px, 0px, 10px, 0px;
+
+  }
+
+/*contact information*/
+  .menu{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align:center;
+
+  }
+
+/*menu list items*/
+  .menu > li{
+    display: inline;
+  }
+
+/*degrees*/
+  .degrees{
+    margin-top: 5px;
+  }
+
+/*skills*/
+  .do{
+    margin-top: 5px;
+  }
+
+ li{
+   font-size: 1em;
+ }
+
+/*mission statement*/
+  .top{
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
