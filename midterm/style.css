@@ -6,7 +6,7 @@ p{
 }
 
 h1{
-  font-family: times new roman, serif;
+  font-family: "times new roman", serif;
   font-size: 4em;
   text-align: center;
   text-transform: capitalize;
@@ -20,7 +20,7 @@ h2{
 }
 
 h3{
-  font-family: times new roman, serif;
+  font-family: "times new roman", serif;
   font-size: 16px;
   text-align: left;
   text-decoration: underline double;
@@ -35,7 +35,7 @@ h3{
 }
 
 #byline{
-  font-family: times new roman, serif;
+  font-family: "times new roman", serif;
   font-size: 12px;
   font-style: italic;
 }
@@ -61,7 +61,7 @@ margin-top: 0;
 }
 
 .related{
-  font-family: times new roman, serif;
+  font-family: "times new roman", serif;
   font-size: 14px;
 }
 
