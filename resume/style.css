@@ -1,7 +1,7 @@
 /* styles for my resume */
 
   body{
-    font-family: 'Open Sans', arial, sans-serif;
+    font-family: arial, sans-serif;
     font-size: 1em;
     color: #444;
     font-weight: 400;
@@ -9,9 +9,45 @@
 
   #container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     margin-bottom: 50px;
+  }
+
+/* Work container */
+  #work-container{
+    padding-bottom: 40px;
+  }
+
+  .footballstory{
+    height: 500px;
+    width: 600px;
+  }
+
+/* Experience container */
+#experience-container{
+  padding-bottom: 40px;
+}
+
+/* Education container */
+#education-container{
+  padding-bottom: 40px;
+}
+
+/* Skills container */
+#skills-container{
+  padding-bottom: 40px;
+}
+
+
+/*contact info*/
+  .contact{
+    text-align: center;
+  }
+
+  .contact li{
+    display: inline-block;
+    padding: 10px;
   }
 
 /* name */
@@ -36,18 +72,42 @@
     margin-top: 20px;
   }
 
+/*about section*/
+  .about{
+    font-size: 1em;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
 
+  .aboutme{
+    text-align: center;
+  }
+
+/*web page header*/
+  .header{
+    float: none;
+  }
 
 /* section title */
   .sectionheader{
-    font-size: 1.5em;
+    font-size: 2em;
     text-transform: uppercase;
-    background-color: #33485e;
+    text-indent: 10px;
+    background-color: #EBCB71;
     color: white;
     font-weight: 400;
     margin: 20px, 0px, 10px, 0px;
-    width: 70%;
+    width: 50%;
     min-width: 300px;
+  }
+
+/* subtitles */
+  h3{
+    text-decoration: underline;
+    font-size: 1.5em;
   }
 
 /* job titles */
@@ -103,6 +163,12 @@
 
  li{
    font-size: 1em;
+ }
+
+ p{
+   text-indent: 20px;
+   padding: 10px;
+   margin-right: 30%;
  }
 
 /*mission statement*/
