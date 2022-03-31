@@ -27,16 +27,8 @@
 
 <div id="container">
 
-<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2">
 
-  <div id="list-example" class="list-group">
-    <a class="list-group-item list-group-item-action" href="#list-item-1">About Me</a>
-    <a class="list-group-item list-group-item-action" href="#list-item-2">Work</a>
-    <a class="list-group-item list-group-item-action" href="#list-item-3">Experience</a>
-    <a class="list-group-item list-group-item-action" href="#list-item-4">Education</a>
-  </div>
-
-<div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
 
 
@@ -46,6 +38,31 @@
 <img class="header" src="header.png" alt="Jerold Massie -- Multimedia Journalist">
     <br>
 
+<!-- Navbar/Scrollspy -->
+
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3 sticky">
+  <a class="navbar-brand" href="#">Jerold Massie | Multimedia Journalist</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Work</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">More</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Experience</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Education</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Skills</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <!-- Navbar/Scrollspy -->
+
 
     <ul class="contact">
       <li><a href="mailto:jrmassie@terpmail.umd.edu" target="_blank"><img src="icons/mail.png" alt="Email Me"></a></li>
@@ -54,10 +71,8 @@
       <li><a href="https://github.com/jrmassie" target="_blank"><img src="icons/github.png" alt="GitHub"></a></li>
     </ul>
 
-<div id="navbar-example">
-  <ul class="nav nav-tabs" role="tablist">
 
-    <h3 id="list-item-1" class="aboutme">About Me</h3>
+    <h3 id="scrollspyHeading1" class="aboutme">About Me</h3>
       <p class="about">I am an up-and-coming multimedia journalist who loves telling unique and interesting stories in new and engaging ways.
 
       <p class="about">I began my foyer into journalism at the end of my time in community college before interning at a local news website in Southern Maryland. I was offered a job at the end of the summer and decided to take a year off of school and gained valuable experience. I covered government meetings, sports, courts, crime, elections and more.</p>
@@ -70,7 +85,7 @@
 
     <div id="work-container">
 
-    <div id="list-item-2" class="sectionheader">Work:</div>
+    <div id="scrollspyHeading2" class="sectionheader">Work:</div>
 
 <div class="seperator"></div>
 
@@ -175,34 +190,34 @@
 </div>
 
     <div id="experience-container">
-    <div id="list-item-3" class="sectionheader">Experience:</div>
+    <div id="scrollspyHeading3" class="sectionheader">Experience:</div>
 
       <h3>Sales Support Representative</h3>
-      <h4>Thompson Creek Window Company | October 2019-Present</h4>
+      <h4 class="company">Thompson Creek Window Company | October 2019-Present</h4>
 
       <p>At Thompson Creek, I provide exceptional customer service by assessing client needs, troubleshooting issues, and offering comprehensive, tailored solutions. I engage potential customers by adapting communication style and sales pitches to their unique situations. And I act as the first point of contact for new clients, representing company’s brand and mission.</p>
 
       <h3>Staff Writer</h3>
-      <h4>TheBayNet.com | 2018-2019</h4>
+      <h4 class="company">TheBayNet.com | 2018-2019</h4>
 
       <p>While working at TheBayNet, I self-managed my workload, meeting deadlines for at least five articles a week. Published over 150 articles where I coordinated with multiple sources, using interpersonal skills to maintain healthy relationships with contacts. I also shot, produced, and edited video interviews, segments, and livestreams.</p>
 
       <h3>Receiving Manager</h3>
-      <h4>Kmart (Sears Holdings Corporation) | 2015-2018</h4>
+      <h4 class="company">Kmart (Sears Holdings Corporation) | 2015-2018</h4>
 
       <p>I worked independently to maintain stocked and incoming inventory. I maintained an efficiency by managing multiple associates, distributing workload, and coordinating and improving receiving processes.</p>
     </div>
 
     <div id="education-container">
-    <div id="list-item-4" class="sectionheader">Education:</div>
-        <div class="degree">B.A., Multimedia Journalism,</div>
+    <div id="scrollspyHeading4" class="sectionheader">Education:</div>
+        <div class="degree">B.A., Multimedia Journalism | Minor in Tech Entrepreneurship</div>
           <h5>University of Maryland, College Park, Spring 2022</h5>
         <div class="degree">Certificate, General Studies</div>
           <h5>College of Southern Maryland, Spring 2018</h5>
     </div>
 
-    <div id=skills-conainer>
-    <div class="sectionheader">Skills:</div>
+    <div id="skills-container">
+    <div id="scrollspyHeading5" class="sectionheader">Skills:</div>
       <ul>
         <li>Adobe: Photoshop, Lightroom, Premeire, After Effects, and Audition</li>
         <li>Written and verbal communication</li>
@@ -210,10 +225,9 @@
       </ul>
     </div>
 
-  </ul>
-  </div>
 
-</div>
+  </div> <!--container div -->
+
+
 
 </body>
-</div>
