@@ -3,40 +3,61 @@
 
 <head>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+<!-- meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Jerold Massie Resume</title>
+  <meta name="description" content="Jerold Massie Portfolio Website">
+  <meta name="author" content="Jerold Massie">
+
+<!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
 </head>
 
-<body>
-  <div id="container">
+<div id="container">
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+  <div id="list-example" class="list-group">
+    <a class="list-group-item list-group-item-action" href="#list-item-1">About Me</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-2">Work</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-3">Experience</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-4">Education</a>
+  </div>
+
+<div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+
+
 
   <!--I built this myself -->
 
-  <!-- don't need name or title
-    <div id="name">Jerold Massie</div>
-<<<<<<< HEAD
-    <div id="title">Journalist</div>
-  -->
 <img class="header" src="header.png" alt="Jerold Massie -- Multimedia Journalist">
     <br>
 
-  <!--
-    <img src="JR Profile.jpg" width="300px">
-    -->
 
     <ul class="contact">
-      <li><a href="mailto:jrmassie@terpmail.umd.edu" target="_blank"><img src="mail.png" alt="Email Me"></a></li>
-      <li><a href="https://www.linkedin.com/in/jerold-massie-47a915190/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a></li>
-      <li><a href="https://twitter.com/JRmassie7" target="_blank"><img src="twitter.png" alt="Twitter"></a></li>
-      <li><a href="https://github.com/jrmassie" target="_blank"><img src="github.png" alt="GitHub"></a></li>
+      <li><a href="mailto:jrmassie@terpmail.umd.edu" target="_blank"><img src="icons/mail.png" alt="Email Me"></a></li>
+      <li><a href="https://www.linkedin.com/in/jerold-massie-47a915190/" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn"></a></li>
+      <li><a href="https://twitter.com/JRmassie7" target="_blank"><img src="icons/twitter.png" alt="Twitter"></a></li>
+      <li><a href="https://github.com/jrmassie" target="_blank"><img src="icons/github.png" alt="GitHub"></a></li>
     </ul>
 
-    <h3 class="aboutme">About Me</h3>
+<div id="navbar-example">
+  <ul class="nav nav-tabs" role="tablist">
+
+    <h3 id="list-item-1" class="aboutme">About Me</h3>
       <p class="about">I am an up-and-coming multimedia journalist who loves telling unique and interesting stories in new and engaging ways.
 
       <p class="about">I began my foyer into journalism at the end of my time in community college before interning at a local news website in Southern Maryland. I was offered a job at the end of the summer and decided to take a year off of school and gained valuable experience. I covered government meetings, sports, courts, crime, elections and more.</p>
@@ -48,21 +69,113 @@
       <p class="about">In college, I created two of my favorite pieces of journalism in "The Perfect Crime" and "Dueling Monuments." Both are audio stories that cover topics I became more and more intrigued with as I interviewed and read more about them. They both tell unique stories on popular topics. I adore them because they are the kinds of stories that inspired me to become a journalist.</p>
 
     <div id="work-container">
-    <div class="sectionheader">Work:</div>
+
+    <div id="list-item-2" class="sectionheader">Work:</div>
+
+<div class="seperator"></div>
+
       <h3>Audio</h3>
         <h4>The Perfect Crime</h4>
         <audio controls>
           <source src="ThePerfectCrime.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
+
+<div class="seperator"></div>
+
       <h3>Writing</h3>
         <h4>Youth Football Embezzlement</h4>
           <embed class="footballstory" src="footballstory.pdf">
 
-    </div>
+<div class="seperator"></div>
+
+      <h3>Photos</h3>
+
+<div class="row">
+  <div class="column">
+    <a target="_blank" href="FinalPortfolio/BGT.jpg">
+      <img src="FinalPortfolio/BGT.jpg" alt="DC2">
+    </a>
+      <div class="desc">Midday sun beaming down onto subject atop a rock on the Cabin John Trail.
+</div>
+  <a target="_blank" href="FinalPortfolio/BGT2.jpg">
+    <img src="FinalPortfolio/BGT2.jpg">
+  </a>
+    <div class="desc">Subject looking out over Potomac river on the Cabin John Trail.
+</div>
+  <a target="_blank" href="FinalPortfolio/DC1.jpeg">
+    <img src="FinalPortfolio/DC1.jpeg">
+  </a>
+    <div class="desc">Celebration in Black Lives Matter Plaza, behind the White House, following Joe Biden's declaration as President Elect by the AP and other news sources.</div>
+  <a target="_blank" href="FinalPortfolio/DC2.jpeg">
+    <img src="FinalPortfolio/DC2.jpeg">
+  </a>
+    <div class="desc">A celebrator getting a boost and holding a sign after the AP called the 2020 presidential election for Joe Biden.</div>
+  <a target="_blank" href="FinalPortfolio/DC3.jpeg">
+    <img src="FinalPortfolio/DC3.jpeg">
+  </a>
+    <div class="desc">Small celebrator eats a snack while holding a balloon and walking down 15th St.</div>
+  </div>
+
+  <div class="column">
+  <a target="_blank" href="FinalPortfolio/DC5.jpg">
+    <img src="FinalPortfolio/DC5.jpg">
+  </a>
+    <div class="desc">"Need help packing?" a celebrator poses for pictures near BLM Plaza.</div>
+  <a target="_blank" href="FinalPortfolio/DC6.jpeg">
+    <img src="FinalPortfolio/DC6.jpeg">
+  </a>
+    <div class="desc">One of the celebrators in BLM Plaza during the celebration after the AP called the 2020 election for Biden.</div>
+  <a target="_blank" href="FinalPortfolio/DC7.jpeg">
+    <img src="FinalPortfolio/DC7.jpeg">
+  </a>
+    <div class="desc">A couple gets married in the middle of the election celebration in BLM Plaza.</div>
+  <a target="_blank" href="FinalPortfolio/DC8.jpeg">
+    <img src="FinalPortfolio/DC8.jpeg">
+  </a>
+    <div class="desc">Celebrators dancing to the Cha Cha Slide in BLM Plaza after a DJ setup a table and speakers.</div>
+  <a target="_blank" href="FinalPortfolio/DC9.jpeg">
+    <img src="FinalPortfolio/DC9.jpeg">
+  </a>
+    <div class="desc">A guitarist climbed atop a traffic box in BLM Plaza to sing during the election declaration celebration.</div>
+  <a target="_blank" href="FinalPortfolio/DC10.jpeg">
+    <img src="FinalPortfolio/DC10.jpeg">
+  </a>
+    <div class="desc">A mariachi band started playing near BLM Plaza, bringing a circle of onlookers into the middle of the closed off road.</div>
+  </div>
+
+  <div class="column">
+  <a target="_blank" href="FinalPortfolio/women1.jpg">
+    <img src="FinalPortfolio/women1.jpg">
+  </a>
+    <div class="desc">Demonstrators at the 10/17/2020 Women’s March in D.C. taking pictures as they dance.</div>
+  <a target="_blank" href="FinalPortfolio/women2.jpg">
+    <img src="FinalPortfolio/women2.jpg">
+  </a>
+    <div class="desc">Protestor sitting infront of the Supreme Court building during 2020 Women's March.</div>
+  <a target="_blank" href="FinalPortfolio/women3.jpg">
+    <img src="FinalPortfolio/women3.jpg">
+  </a>
+    <div class="desc">Demonstrator holding a sign near the Supreme Court building during the Women’s March on Washington on 10/17/2020.</div>
+  <a target="_blank" href="FinalPortfolio/women4.jpg">
+    <img src="FinalPortfolio/women4.jpg">
+  </a>
+    <div class="desc">Demonstrator watches a speaker in front of the Supreme Court building during the Women’s March on Washington on 10/17/2020.</div>
+  <a target="_blank" href="FinalPortfolio/women5.jpg">
+    <img src="FinalPortfolio/women5.jpg">
+  </a>
+    <div class="desc">A demonstrator holding their sign up in front of the Supreme Court building on 10/17/2020, during the Women’s March.</div>
+  <a target="_blank" href="FinalPortfolio/DC4.jpeg">
+    <img src="FinalPortfolio/DC4.jpeg">
+  </a>
+    <div class="desc">Authorities standing along a sign covered fence that encompassed the White House, The Ellipse, and Lafayette Square.</div>
+  </div>
+</div>
+
+</div>
 
     <div id="experience-container">
-    <div class="sectionheader">Experience:</div>
+    <div id="list-item-3" class="sectionheader">Experience:</div>
 
       <h3>Sales Support Representative</h3>
       <h4>Thompson Creek Window Company | October 2019-Present</h4>
@@ -81,11 +194,11 @@
     </div>
 
     <div id="education-container">
-    <div class="sectionheader">Education:</div>
-      <ul>
-        <li>B.A., Multimedia Journalism, University of Maryland, College Park, Spring 2022</li>
-        <li>Certificate, General Studies, College of Southern Maryland, Spring 2018</li>
-      </ul>
+    <div id="list-item-4" class="sectionheader">Education:</div>
+        <div class="degree">B.A., Multimedia Journalism,</div>
+          <h5>University of Maryland, College Park, Spring 2022</h5>
+        <div class="degree">Certificate, General Studies</div>
+          <h5>College of Southern Maryland, Spring 2018</h5>
     </div>
 
     <div id=skills-conainer>
@@ -97,5 +210,10 @@
       </ul>
     </div>
 
+  </ul>
   </div>
+
+</div>
+
 </body>
+</div>

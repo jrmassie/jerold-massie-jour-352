@@ -5,17 +5,26 @@
     font-size: 1em;
     color: #444;
     font-weight: 400;
+    position: relative;
   }
+
+/* scrollspy */
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#navbar-example'
+})
+
 
   #container{
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
     margin-bottom: 50px;
+    margin-top: 100px;
   }
 
 /* Work container */
   #work-container{
+    padding-top: 100px;
     padding-bottom: 40px;
   }
 
@@ -23,6 +32,57 @@
     height: 500px;
     width: 600px;
   }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  }
+
+  .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  }
+
+  .column img:hover{
+    border: 4px solid #EBCB71;
+  }
+
+  .desc {
+  padding: 15px;
+  text-align: center;
+  font-size: .75em;
+  }
+  /* photo gallery
+
+  .gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+  flex-wrap: wrap;
+}
+
+  .gallery:hover {
+    border: 1px solid #777;
+}
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+}
+
+  .desc {
+  padding: 15px;
+  text-align: center;
+}
+*/
 
 /* Experience container */
 #experience-container{
@@ -49,6 +109,26 @@
     display: inline-block;
     padding: 10px;
   }
+
+  .contact li:hover{
+    border-bottom: 4px solid black;
+  }
+
+/*
+  .contact-hover{
+    text-align: center;
+  }
+
+  .contact-hover li{
+    opacity: 0%;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .contact-hover li:hover{
+    opacity: 100%;
+  }
+*/
 
 /* name */
   #name{
@@ -106,9 +186,18 @@
 
 /* subtitles */
   h3{
-    text-decoration: underline;
     font-size: 1.5em;
   }
+
+  h4{
+    text-decoration: overline;
+  }
+
+  .degree{
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+
 
 /* job titles */
   .jobtitle{
@@ -177,4 +266,8 @@
     min-width: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
+  }
+
+  .seperator{
+    padding: 50px;
   }
