@@ -285,3 +285,7 @@
   .seperator{
     padding: 50px;
   }
+
+  .underline{
+    text-decoration: underline;
+  }
