@@ -12,10 +12,13 @@
   .sticky {
     position: fixed;
     top: 0;
-    width: 90%;
+    width: 100%;
     text-align: center;
 }
 
+  .indent{
+    margin-right: 50px;
+  }
 
   #container{
     width: 100%;
