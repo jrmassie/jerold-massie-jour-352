@@ -1,0 +1,59 @@
+/* Container */
+
+.container{
+
+}
+
+.headline{
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.byline{
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.chapterhead{
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption{
+  font-size: .75em;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  text-align: center;
+}
+
+p{
+  font-family: "Georgia", serif;
+  line-height: 180%;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 100%
+}
+
+/*From W3 Schools (https://www.w3schools.com/howto/howto_css_three_columns.asp)*/
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
