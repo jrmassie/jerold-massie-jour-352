@@ -1,0 +1,70 @@
+#content{
+  margin: 0 auto;
+  width: 900px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.hero-container{
+  position: relative;
+  text-align: center;
+}
+.hero{
+  margin: 0 auto;
+  width: 100%;
+}
+.overlay{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  background: #780000;
+  opacity: .8;
+}
+.herotitle{
+  font-family: Helvetica, sans-serif;
+  font-size: 6em;
+  color: white;
+  margin: 0 auto;
+}
+.herosub{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4em;
+  color: #EDF2F4;
+  margin: 0 auto;
+}
+#byline{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+.pic{
+  max-width: 100%;
+}
+.right{
+  float: right;
+    max-width: 50%;
+    height: auto;
+}
+.left{
+  float: left;
+    max-width: 50%;
+    height: auto;
+}
+.caption{
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+}
+p{
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+blockquote{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  color: #780000;
+}
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
