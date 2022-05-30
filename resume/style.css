@@ -16,6 +16,10 @@
     text-align: center;
 }
 
+/* container */
+  #container{
+    margin: 0 auto;
+  }
 
 /* Work container */
   #work-container{
@@ -138,7 +142,10 @@
 
 /*web page header*/
   .header{
-    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
 /* section title */
@@ -174,7 +181,7 @@
   }
 
 /* job organization */
-  .organiization{
+  .organization{
     font-weight: 400;
     font-size: 1.5em;
 
@@ -197,13 +204,12 @@
 /*contact information*/
   .menu{
     margin: 0 auto;
-    padding: 0 auto;
     text-align:center;
 
   }
 
 /*menu list items*/
-  .menu > li{
+  .menu li{
     display: inline;
   }
 
