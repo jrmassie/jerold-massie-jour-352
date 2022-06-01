@@ -3,7 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: serif;
+  background: black;
 }
+
+/* NOTE: ScrollSnap -- I chose scrollsnap to help preserve the structure
+from the print version of the story which is purposfully structure to stress specific moments.
+Each section reflects a page.*/
 
 section{
   height:100vh;
@@ -13,6 +18,10 @@ section{
   padding-top: 50px;
 }
 
+.container{
+  height: 100vh;
+  top: 50%;
+}
 
 .snapcontainer{
   scroll-snap-type: y mandatory; /*scroll snap from https://www.youtube.com/watch?v=htw4iKMYzEc */
@@ -20,6 +29,9 @@ section{
   height: 100vh;
 }
 
+/* NOTE: End Scrollsnap */
+
+/* NOTE: Hero Image */
 .header{
   max-width: 100%;
   background: black;
@@ -27,58 +39,46 @@ section{
   text-align: center;
 }
 
+/* NOTE: used for solo pictures */
 .hiroshima{
-  align-self: center;
-  max-width: 1200px;
-  height: auto;
-  padding-bottom: 50px;
-}
-
-.right{
-  float: right;
-  padding-right: 25%;
-  padding-left: 50px;
-}
-
-.left{
-  float:left;
-  padding-left: 15%;
+  margin: 0 auto;
+  max-width: 90%;
+  min-width: 400px;
+  max-height: 750px;
 }
 
 
+.padding{
+  padding: 50vh;
+}
+
+/* NOTE: for profile pictures */
 .profile{
-  max-width: 194px;
+  max-width: 50%;
 }
 
+/* NOTE: for profile pictures */
 .picpad{
-  padding-left: 50px;
-  padding-bottom: 50px;
+  vertical-align: middle;
 }
 
+/* NOTE: for introduction of characters */
 .name{
   color: #DD4207;
   font-weight: bold;
 }
 
 .pullquote{
-  padding-top: 15%;
-  padding-bottom: 15%;
-  padding-right: 50%;
-  text-align: left;
+  font-family: 'Playfair Display SC', serif;
   color: #DFC876;
+  font-size: 2.5em;
 }
 
-.graphic{
-  float: right;
-  padding-right: 25%;
-  padding-left: 50px;
+/* NOTE: For when Mr. Tanaka dies. */
+.tanaka{
+  font-size: 2.5em;
+  padding-top: 25%;
 }
-
-.top{
-  padding-top: 50px;
-  padding-left: 20px;
-}
-
 
 /*sections*/
 .intro{
@@ -94,28 +94,20 @@ section{
   padding-bottom: 100px;
 
 }
-.four{
-  height: 80vh;
-  padding-top:250px;
 
-}
-
-.six{
-  height: 70vh;
-  padding-top: 150px;
-}
 .conclusion{
-  padding-top:200px;
-  padding-bottom:200px;
-  background: black;
+  margin: 0 auto;
+  vertical-align: middle;
+  padding-bottom: 10vh;
 }
 
 
 /*tags*/
 
+/* NOTE: section headers */
 h1{
   font-family: 'Playfair Display SC', serif;
-  color: white;
+  color: #DD4207;
   text-align: left;
   text-decoration: underline;
   font-size: 2.5em;
@@ -125,6 +117,7 @@ h1{
 
 }
 
+/* NOTE: subheading for denoting a section was written by me. */
 h2{
   font-family: 'Playfair Display SC', serif;
   color: white;
@@ -134,27 +127,30 @@ h2{
   padding-bottom: 5%;
 }
 
-h3{
-  font-family: 'Playfair Display SC', serif;
-  color: white;
-  text-align: left;
-  font-size: 2.5em;
-  padding-top: 10%;
-  padding-left: 5%;
-}
 
 p{
   font-family: 'Times New Roman', Times, serif;
   color: white;
   font-size: 1em;
-
-
   font-weight: normal;
 }
 
+
+/* NOTE: photo captions */
 figcaption{
   font-family: 'Times New Roman', Times, serif;
   color: white;
   font-size: 1em;
   font-style: italic;
+}
+
+/* NOTE: Media Queries */
+
+@media all and (max-width: 1200px){
+  section{
+    height: auto;
+    scroll-snap-align: none;
+    padding-top: 0px;
+
+  }
 }
