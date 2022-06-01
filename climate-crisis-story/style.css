@@ -105,9 +105,9 @@
 }
 
 .pullquote{
-  font-size: 3vw;
+  font-size: 2vw;
   color: #EDF2F4;
-  background-color: #EF233C;
+  background-color: #E68A89;
   text-align: center;
 }
 .pullquote2{
@@ -194,8 +194,11 @@ body{
 }
 
 /* Media Queries */
-  /* NOTE: second pull quote is too small on smaller screens */
+  /* NOTE:  pull quotes are too small on smaller screens */
 @media screen (max-width: 850px;) {
+  .pullquote{
+    font-size: 3em;
+  }
   .pullquote2{
     font-size: 3em;
   }
