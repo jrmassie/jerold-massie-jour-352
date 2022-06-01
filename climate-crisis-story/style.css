@@ -1,22 +1,26 @@
 /* Container */
 
 .container{
-
+  margin: 0 auto;
 }
 
 /*header*/
 
+.navbar{
+  width: 100%;
+  margin: 0 auto;
+  z-index: 9999;
+}
 
 .navbar-font{
-  margin-left: 2%;
+  margin-left: 15vw;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5em;
+  font-size: 2.5vw;
   color: #EDF2F4;
 }
 .sticky{
   position: fixed;
   top: 0;
-  width: 100%;
 }
 
 .red{
@@ -30,10 +34,11 @@
   position: relative;
   text-align: center;
   color: #EDF2F4;
+  width: 100%;
 }
 
 .hero-image{
-  max-width: 100%;
+  width: 100%;
 }
 
 .overlay{
@@ -46,9 +51,10 @@
 
 .hero-head{
   font-family: 'Montserrat', sans-serif;
-  font-size: 6em;
+  font-size: 5vw;
   color: #EDF2F4;
   margin: 0 auto;
+  width: 100%;
 }
 .underline{
   text-decoration: underline;
@@ -58,26 +64,12 @@
   font-weight: 400;
   color: #f08080;
   text-decoration: none;
+  font-size: 4vw;;
 }
 
-/* Media Queries */
-@media(max-width:650px) {
 
-  p{
-    padding-left: 20px;
-    padding-right: 10px;
-  }
-  .chapter-head{
-    font-size: 1.25em;
-    color: #2B2D42;
-  }
-  .head{
-    font-size:2em;
-  }
-  .hero-container{
-    font-size: 1.5em;
-  }
-}
+/* NOTE: end Hero */
+
 
 .headline{
   font-size: 3em;
@@ -113,23 +105,52 @@
 }
 
 .pullquote{
-  font-size: 1.5em;
+  font-size: 3vw;
   color: #EDF2F4;
   background-color: #EF233C;
+  text-align: center;
 }
 .pullquote2{
-  font-size: 1.5em;
+  font-size: 2vw;
   color: #EDF2F4;
   background-color: #8D99AE;
+  text-align: center;
+}
+.quote-attribution{
+  color: black;
 }
 .italic{
   font-size: .75em;
   font-style: italic;
 }
-
 .padding{
-  padding-top: 4em;
+  padding: 20vh;
 }
+.padding-top{
+  padding-top: 20vh;
+}
+.padding-top2{
+  padding-top: 40vh;
+}
+.padding-top3{
+  padding-top: 5vh;
+}
+.center{
+  vertical-align: middle;
+}
+
+/* NOTE: Bootstrap Grids */
+.row{
+  margin: 0 auto;
+}
+
+/* NOTE: Bootstrap accordion  */
+.yellow{
+  background-color: #FEFDD1;
+}
+
+
+
 /*pics*/
 
 .pics{
@@ -146,6 +167,11 @@ figcaption{
   font-style: italic;
   text-align: center;
 }
+.map{
+  margin: 0 auto;
+  width: 50vw;
+  min-width: 500px;
+}
 
 .credits{
   font-style: italic;
@@ -160,12 +186,17 @@ footer{
   text-align: center;
   color: white;
   background-color: black;
-  width: 100%
+  width: 100vw;
 }
 
-/*From W3 Schools (https://www.w3schools.com/howto/howto_css_three_columns.asp)*/
-.column {
-  float: left;
-  width: 33.33%;
-  text-align: center;
+body{
+  overflow-x: hidden;
+}
+
+/* Media Queries */
+  /* NOTE: second pull quote is too small on smaller screens */
+@media screen (max-width: 850px;) {
+  .pullquote2{
+    font-size: 3em;
+  }
 }
